@@ -9,7 +9,7 @@ body{
     padding: 0; 
 }
 
-h1, .paragraphAvatar, .paragraphEquilibrium{
+h1, .paragraphAvatar, .paragraphEquilibrium, .eth, .days{
     font-family: 'Outfit', sans-serif;
 }
 
@@ -20,23 +20,20 @@ h1, p{
 h1{
     font-size:20px;
     position: relative;
-    margin-left: 15px;
-}
-
-.eth{
-    color: hsl(178, 100%, 50%);
+    margin-left: 19px;
 }
 
 .paragraphEquilibrium{
     font-size:18px;
     position: relative;
-    margin-left: 15px;   
+    margin: 15px 19px;
+    color: hsl(215, 51%, 70%);
 }
 
 .equilibrium{
     position: relative;
     margin-left: 15px;
-    margin-top: 3%;
+    margin-top: 4%;
     width: 44vh;
     height: 43vh;
     border-radius:10%;
@@ -52,13 +49,42 @@ h1{
     background-color: hsl(217, 54%, 11%);
 }
 
+.container-infomation{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px 10px;
+}
+
+.container-infomation > .eth{
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    margin: 0px 5px;
+}
+
+.container-infomation > .days {
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    margin: 1px 10px;
+}
+
+
+.container-avatar {
+    display : flex;
+    margin: 10px 10px;
+}
+
 .paragraphAvatar{
     position: relative;
-    margin: 62% 3% 10%;
+    margin: 7px 10px 13px;
     font-size: 18px;
 }
 
-img{
-    height: 2vw; 
+.imgAvatar{
+    height: 3vw;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:45%; 
 }
 
