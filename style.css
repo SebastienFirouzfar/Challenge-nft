@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-color: hsl(216, 50%, 16%);
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+h1, .paragraphAvatar, .paragraphEquilibrium{
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, p{
+    color: hsl(0, 0%, 100%);
+}
+
+h1{
+    font-size:20px;
+    position: relative;
+    margin-left: 15px;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.paragraphEquilibrium{
+    font-size:18px;
+    position: relative;
+    margin-left: 15px;   
+}
+
+.equilibrium{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 3%;
+    width: 44vh;
+    height: 43vh;
+    border-radius:10%;
+}
+
+.container{
+    width: 50vh;
+    border-radius: 4%;
+    position: relative;
+    margin-left: 35%;
+    margin-top:1%;
+    box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.6);
+    background-color: hsl(217, 54%, 11%);
+}
+
+.paragraphAvatar{
+    position: relative;
+    margin: 62% 3% 10%;
+    font-size: 18px;
+}
+
+img{
+    height: 2vw; 
+}
+
