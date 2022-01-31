@@ -92,3 +92,9 @@ hr{
     border-radius:45%; 
 }
 
+.attribution{
+    position: relative;
+    margin: 1% 27%;
+    color: white;
+}
+
